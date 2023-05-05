@@ -1,0 +1,10 @@
+# Ignore les fichiers de l'environnement virtuel
+env/
+
+# Ignore les fichiers de migration
+*.pyc
+__pycache__/
+db.sqlite3
+
+*.idea
+*.env

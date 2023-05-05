@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    margin-bottom:50px;
+    
+}
+
+.card{
+    width: 16rem;
+    height: 320px;
+    margin: 3px;
+}
+
+.card-img-top{
+    width: 150px;
+    height: 180px;
+}
+
+.card-title{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.card-text{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.card-price{
+    text-align: end;
+    font-size: 22px;
+    padding-bottom: 10px;
+
+
+}
+
+.text-red{
+    color: red;
+}
