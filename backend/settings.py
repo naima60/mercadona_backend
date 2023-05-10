@@ -39,6 +39,7 @@ SECRET_KEY = get_env_variable('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    '.vircel.app'
     'localhost',
     '127.0.0.1',
 ]
@@ -104,7 +105,9 @@ DATABASES = {
         'PASSWORD': env('DB_PASSWORD'),
         'HOST': env('DB_HOST'),
         'PORT': env('DB_PORT'),
+
     }
+
 }
 
 
